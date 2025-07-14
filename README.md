@@ -46,12 +46,13 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 
 ## ⚙️ Getting Started (Locally)
 
-1. **Clone the repo**
+### 1. **Clone the repo**
 
-    -- git clone https://github.com/your-username/NLP-Book-Recommendation.git
-    -- cd NLP-Book-Recommendation 
+```bash
+git clone https://github.com/your-username/NLP-Book-Recommendation.git
+cd NLP-Book-Recommendation
 
-
+```
 2. **Start the microservice:**
 
     -- cd ml_service

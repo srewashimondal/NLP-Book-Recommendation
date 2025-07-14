@@ -39,6 +39,6 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 2. Your input goes to the Node.js backend.
 3. The backend forwards it to the Python microservice.
 4. The ML model finds similar books using text-based features.
-5. The top matches are sent back to the frontend — fast!
+5. The top matches are sent back to the frontend fast!
 
 ---

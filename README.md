@@ -54,21 +54,23 @@ cd NLP-Book-Recommendation
 
 ```
 2. **Start the microservice:**
-
-    -- cd ml_service
-    -- python -m venv venv
-    -- venv\Scripts\activate     # On Windows
-    -- pip install -r requirements.txt
-    -- python app.py
+```bash
+cd ml_service
+python -m venv venv
+venv\Scripts\activate     # On Windows
+pip install -r requirements.txt
+python app.py
+```
 
 3. **Start the backend server:**
-
-    -- cd ../backend
-    -- npm install
-    -- node server.js
-
+```bash
+cd ../backend
+npm install
+node server.js
+```
 4. **Start the frontend server:**
-
-    -- cd ../frontend
-    -- npm install
-    -- npm start
+```bash
+cd ../frontend
+npm install
+npm start
+```

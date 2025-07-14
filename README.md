@@ -48,9 +48,9 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 
 1. **Clone the repo**
 
-```bash
 git clone https://github.com/your-username/NLP-Book-Recommendation.git
-cd NLP-Book-Recommendation ```
+cd NLP-Book-Recommendation 
+
 
 2. **Start the microservice:**
 

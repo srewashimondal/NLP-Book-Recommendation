@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+ml_service/venv/
+
+# Ignore environment variable files
+.env
+
+# Node dependencies
+node_modules/
+
+# System junk
+.DS_Store
+__pycache__/
+*.pyc

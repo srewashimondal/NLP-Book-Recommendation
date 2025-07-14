@@ -53,7 +53,7 @@ git clone https://github.com/your-username/NLP-Book-Recommendation.git
 cd NLP-Book-Recommendation
 
 ```
-2. **Start the microservice:**
+### 2. **Start the microservice:**
 ```bash
 cd ml_service
 python -m venv venv
@@ -62,13 +62,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
-3. **Start the backend server:**
+### 3. **Start the backend server:**
 ```bash
 cd ../backend
 npm install
 node server.js
 ```
-4. **Start the frontend server:**
+### 4. **Start the frontend server:**
 ```bash
 cd ../frontend
 npm install

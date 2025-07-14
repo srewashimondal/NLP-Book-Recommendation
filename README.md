@@ -50,9 +50,9 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 
 ```bash
 git clone https://github.com/your-username/NLP-Book-Recommendation.git
-cd NLP-Book-Recommendation
+cd NLP-Book-Recommendation ```
 
-Start the microservice:
+2. **Start the microservice:**
 
 cd ml_service
 python -m venv venv
@@ -60,13 +60,13 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 python app.py
 
-Start the backend server:
+3. **Start the backend server:**
 
 cd ../backend
 npm install
 node server.js
 
-Start the frontend server:
+4. **Start the frontend server:**
 
 cd ../frontend
 npm install

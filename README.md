@@ -4,7 +4,7 @@
 
 - You're staring at Goodreads for hours but still can’t find *the* book?
 - Every recommendation is either too popular, too niche, or just not "you"?
-- You just want a **book that vibes with your tastes**—without the endless scrolling?
+- You just want a **book that vibes with your tastes** without the endless scrolling?
 
 We've got you. 💡  
 Welcome to **NLP Book Recommender**, a smart little tool that finds books *you* might actually enjoy, using real NLP and machine learning magic.

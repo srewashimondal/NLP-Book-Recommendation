@@ -42,3 +42,32 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 5. The top matches are sent back to the frontend fast!
 
 ---
+
+
+## ⚙️ Getting Started (Locally)
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/your-username/NLP-Book-Recommendation.git
+cd NLP-Book-Recommendation
+
+Start the microservice:
+
+cd ml_service
+python -m venv venv
+venv\Scripts\activate     # On Windows
+pip install -r requirements.txt
+python app.py
+
+Start the backend server:
+
+cd ../backend
+npm install
+node server.js
+
+Start the frontend server:
+
+cd ../frontend
+npm install
+npm start

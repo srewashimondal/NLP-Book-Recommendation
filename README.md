@@ -44,6 +44,27 @@ It’s kind of like having a book-loving AI friend who *gets* your reading taste
 ---
 
 
+## 📊 Model Benchmarking & Evaluation
+
+To enhance our recommendation engine, we experimented with **5 different machine learning models**:
+
+- **K-Nearest Neighbors (KNN)**  
+- **Random Forest Regressor**  
+- **Decision Tree Regressor**  
+- **Linear Regression**  
+- **HistGradientBoosting Regressor**
+
+### 🔍 How We Evaluate
+We benchmark each model using:
+- **R² Score** – Explains how much variance in ratings the model captures.  
+- **Mean Squared Error (MSE)** – Measures prediction accuracy.  
+- **Cross-validated RMSE** – Tests generalization through 5-fold cross-validation.  
+- **Visualizations** – Residual histograms and actual vs. predicted plots provide insight into model performance.
+
+This comparative analysis helps us identify the most effective model for generating personalized book recommendations.
+
+---
+
 ## ⚙️ Getting Started (Locally)
 
 ### 1. **Clone the repo**
@@ -73,24 +94,4 @@ node server.js
 cd ../frontend
 npm install
 npm start
-
 ---
-
-## 📊 Model Benchmarking & Evaluation
-
-To enhance our recommendation engine, we experimented with **5 different machine learning models**:
-
-- **K-Nearest Neighbors (KNN)**  
-- **Random Forest Regressor**  
-- **Decision Tree Regressor**  
-- **Linear Regression**  
-- **HistGradientBoosting Regressor**
-
-### 🔍 How We Evaluate
-We benchmark each model using:
-- **R² Score** – Explains how much variance in ratings the model captures.  
-- **Mean Squared Error (MSE)** – Measures prediction accuracy.  
-- **Cross-validated RMSE** – Tests generalization through 5-fold cross-validation.  
-- **Visualizations** – Residual histograms and actual vs. predicted plots provide insight into model performance.
-
-This comparative analysis helps us identify the most effective model for generating personalized book recommendations.

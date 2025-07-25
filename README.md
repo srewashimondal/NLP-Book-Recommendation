@@ -75,9 +75,9 @@ npm install
 npm start
 
 
----
 
-## 📊 Model Benchmarking & Evaluation
+
+## **📊 Model Benchmarking & Evaluation**
 
 To enhance our recommendation engine, we experimented with **5 different machine learning models**:
 

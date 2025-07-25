@@ -51,8 +51,7 @@ To enhance our recommendation engine, we experimented with **5 different machine
 - **K-Nearest Neighbors (KNN)**  
 - **Random Forest Regressor**  
 - **Decision Tree Regressor**  
-- **Linear Regression**  
-- **HistGradientBoosting Regressor**
+- **Linear Regression** 
 
 ### 🔍 How We Evaluate
 We benchmark each model using:

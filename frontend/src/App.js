@@ -8,7 +8,7 @@ function App() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_URL}/recommend`, {
+       const response = await axios.post(`${process.env.REACT_APP_API_URL}/recommend`, {
         prompt,
       });
       setResults(response.data);

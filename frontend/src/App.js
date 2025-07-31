@@ -36,6 +36,7 @@ function App() {
             <h3>{book.book_title}</h3>
             <p><strong>Author:</strong> {book.author}</p>
             <p><strong>Genres:</strong> {book.genres}</p>
+            <p><strong>Summary:</strong> {book.book_details}</p>
           </div>
         ))}
       </div>

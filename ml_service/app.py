@@ -21,7 +21,7 @@ def recommend():
         prompt_vector = vectorizer.transform([prompt])
         distances, indices = knn_model.kneighbors(prompt_vector, n_neighbors=5)
 
-        results = df.iloc[indices[0]][['book_title', 'author', 'genres']]
+        results = df.iloc[indices[0]][['book_title', 'author', 'genres','book_details']]
         print("✅ Recommendations ready")
 
         return jsonify(results.to_dict(orient="records"))

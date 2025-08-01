@@ -73,6 +73,21 @@ git clone https://github.com/srewashimondal/NLP-Book-Recommendation.git
 cd NLP-Book-Recommendation
 
 ```
+
+### 1.5 **Before running locally**
+To run the code locally, there are two .env files that must be added to the repo to connect the back and the frontend properly. Without this code, the recommendation button will not generate anything.
+
+1. create a file named .env in the frontend folder (outside of src or public) with the following line of code:
+```
+REACT_APP_API_URL=http://localhost:5000
+```
+
+2. create anotehr .env file in the backend folder with the following lines of code:
+```
+PORT=5000
+ML_SERVICE_URL=http://localhost:5001
+```
+
 ### 2. **Start the microservice:**
 ```bash
 cd ml_service
@@ -93,3 +108,4 @@ node server.js
 cd ../frontend
 npm install
 npm start
+

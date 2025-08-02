@@ -33,10 +33,15 @@ function App() {
       <div className="results">
         {results.map((book, index) => (
           <div key={index} className="card">
-            <h3 className = 'capitalize'>{book.book_title}</h3>
-            <p className = 'capitalize'><strong>Author:</strong> {book.author}</p>
-            <p><strong>Genres:</strong> {book.genres}</p>
-            <p><strong>Summary:</strong> {book.book_details}</p>
+            <div>
+              <h3 className='capitalize'>{book.book_title}</h3>
+              <p className='capitalize'><strong>Author:</strong> {book.author}</p>
+              <p><strong>Genres:</strong> {book.genres}</p>
+              <p><strong>Summary:</strong> {book.book_details}</p>
+            </div>
+            <div>
+              
+            </div>
           </div>
         ))}
       </div>

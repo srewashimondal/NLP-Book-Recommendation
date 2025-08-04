@@ -30,28 +30,6 @@ function App() {
       </ul>
     </nav>
 
-      <input
-        type="text"
-        placeholder="e.g., fantasy with dragons and magic"
-        value={prompt}
-        onChange={(e) => setPrompt(e.target.value)}
-      />
-      <button onClick={handleSubmit}>✨ Recommend Books</button>
-
-      <div className="results">
-        {results.map((book, index) => (
-          <div key={index} className="card">
-            <div>
-              <h3 className='capitalize'>{book.book_title}</h3>
-              <p className='capitalize'><strong>Author:</strong> {book.author}</p>
-              <p><strong>Genres:</strong> {book.genres}</p>
-              <p><strong>Summary:</strong> {book.book_details}</p>
-            </div>
-            <div>
-              
-            </div>
-          </div>
-        ))}
     <div>
       {/* Hero Section */}
       <div className="hero">
@@ -143,3 +121,4 @@ function App() {
 }
 
 export default App;
+

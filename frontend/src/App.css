@@ -227,7 +227,13 @@ h3 {
   text-transform: capitalize;
 }
 
-
+/*Background image by Raysonho @ Open Grid Scheduler / Scalable Grid Engine - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=5192106*/
+body {
+  background-image: url("SteacieLibrary.jpg"); 
+  background-size: 103%;
+  background-attachment: fixed;
+  
+}
 
 p {
   font-weight:600;
